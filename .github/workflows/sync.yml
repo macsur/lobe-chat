@@ -7,7 +7,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # every 96 hours
+    - cron: '0 0 * * 0' # 每星期执行一次
   workflow_dispatch:
 
 jobs:
